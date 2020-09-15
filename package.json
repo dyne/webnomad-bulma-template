@@ -1,14 +1,16 @@
 {
-  "name": "bulma-start",
-  "version": "0.0.2",
-  "description": "Start package for Bulma",
+  "name": "webnomad-bulma-template",
+  "version": "0.2.0",
+  "description": "Webnomad setup using Bulma",
   "keywords": [
+	"dyne",
+	"webnomad",
     "sass",
     "bulma",
     "css",
     "start"
   ],
-  "author": "Jeremy Thomas <bbxdesign@gmail.com> (http://jgthms.com)",
+  "author": "Denis Roio <jaromil@dyne.org> (https://dyne.org)",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.1.5",
@@ -32,6 +34,6 @@
     "index-watch": "_shell/markdown-inline-tag -w views/index.html pub/index.html",
     "index-build": "_shell/markdown-inline-tag views/index.html pub/index.html",
     "preview": "http-server ./pub",
-    "start": "npm-run-all --parallel css-watch js-watch index-watch preview"
+    "start": "npm-run-all index-build css-build --parallel css-watch js-watch index-watch preview"
   }
 }

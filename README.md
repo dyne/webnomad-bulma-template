@@ -1,13 +1,15 @@
 # Webnomad for Bulma
 
-Tiny npm package that includes the `npm` **dependencies** you need to **build your own website** with Webnomad styled in Bulma.
+Template to build your own website using Webnomad styled in Bulma.
+
+For more information about the software components:
 
 - https://dyne.org/software/webnomad
 - http://bulma.io
 
 ## Install
 
-To install all dependencies via NPM:
+To install all dependencies via Yarn:
 
 ```sh
 yarn install
@@ -15,7 +17,7 @@ yarn install
 
 ## What's included
 
-The `npm` dependencies included in `package.json` are:
+The dependencies included in `package.json` are:
 
 * <code>[bulma](https://github.com/jgthms/bulma)</code>
 * <code>[node-sass](https://github.com/sass/node-sass)</code> to compile your own Sass file
